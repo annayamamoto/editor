@@ -19,4 +19,8 @@ module.exports = {
     filename: "index.js",
     publicPath: "dist/",
   },
+  devServer: {
+    static: "/dist/",
+    open: true,
+  },
 };
